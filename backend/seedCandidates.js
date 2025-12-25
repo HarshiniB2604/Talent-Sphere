@@ -4,7 +4,7 @@
 const mongoose = require('mongoose');
 
 // Replace with your actual MongoDB Atlas connection string
-const MONGODB_URI = "mongodb+srv://user31:VICBYOmocycPhxq6@hiringplatform.v5uqbbl.mongodb.net/?appName=hiringplatform";
+const MONGODB_URI = "";
 // Candidate schema (adjust fields as needed)
 const candidateSchema = new mongoose.Schema({
   name: String,
